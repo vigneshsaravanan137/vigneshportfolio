@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d1a62cec8a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+        <h1>Vignesh S</h1>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p>UI/UX Designer & Web developer</p>
+        <h4>Hi, I'm <span>vignesh</span><br>form Salem, Tamilnadu</h4>
+
+    </div>
+</div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+<div class="row">
+    <div class="about-col-1" >
+        <img src="IMG_20240324_124330.jpg" alt="Photo">
+    </div>
+    <div class="about-col-2">
+<h1 class="sub-title">About Me</h1>
+<p>I am Vignesh, an experienced KYC Maker and a skilled UI/UX designer 
+    with a strong foundation in HTML, CSS, and JavaScript. My expertise 
+    lies in creating user-friendly, visually appealing web interfaces and 
+    ensuring compliance with Know Your Customer (KYC) standards. I am 
+    passionate about blending my design sensibilities with my technical 
+    skills to develop seamless and engaging digital experiences. With a 
+    keen eye for detail and a commitment to excellence, I strive to contribute 
+    to innovative projects that prioritize both functionality and user satisfaction.</p>
+
+    <div class="tab-titles">
+<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+<p class="tab-links" onclick="opentab('experience')">Experience</p>
+<p class="tab-links" onclick="opentab('education')">Education</p>
+    </div>
+    <div class="tab-contents active-tab" id="skills"> 
+        <ul>
+            <li> <span>UI/UX</span><br>Designing Web/App interfaces</li>
+            <li> <span>Web Development</span><br>Web app Development</li>
+            <li> <span>KYC Analyst</span><br>KYC Maker</li>
+        </ul>
+    </div>
+    <div class="tab-contents" id="experience"> 
+        <ul>
+            <li> <span>2022-2023</span><br>KYC Analyst at TCS</li>
+            
+        </ul>
+    </div>
+    <div class="tab-contents" id="education"> 
+        <ul>
+            <li> <span>2024</span><br>Front-end Development and UI/UX Design at Green technology institute</li>
+            <li> <span>2019-2022</span><br>Bachelor of Computer science from Sona college of arts and science Salem</li>
+        </ul>
+    </div>
+    </div>
+
+</div>
+        </div>
+
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+<div class="services-list">
+    <div>
+        <i class="fas fa-code"></i>
+        <h2>UI/UX Design</h2>
+        <p>UI/UX design focuses on creating intuitive and engaging digital experiences by combining aesthetic appeal with user-centered functionality. It involves designing interfaces that are easy to navigate, visually pleasing, and aligned with user expectations, ultimately aiming to enhance usability, satisfaction, and the overall effectiveness of digital products and services.</p>
+    <a href="#">Learn more</a></div>
+    <div>
+        <i class="fab fa-app-store"></i>
+        <h2>Web development</h2>
+        <p>Web development involves building and maintaining websites and web applications. It encompasses tasks such as coding, designing user interfaces, integrating backend functionalities, and ensuring websites are responsive and secure. Web developers use various programming languages and frameworks to create functional and visually appealing online experiences.</p>
+    <a href="#">Learn more</a></div>
+
+</div>
+        </div>
+
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image (9).png" alt="Taxi app">
+                    <div class="layer">
+                        <h3>Green Grove Tea Website</h3>
+                        <p>The Green Grove Tea website project aims to create an e-commerce 
+                            platform that highlights and sells premium, sustainably-sourced 
+                            organic teas.
+                        </p>
+                        <a href="https://greengrovewebcom.vercel.app/"><i class="fa-solid fa-crop"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image.png" alt="Cloths app">
+                    <div class="layer">
+                        <h3>Online Shopping App Design</h3>
+                        <p>The Online Shopping app web design front-end development project 
+                            focuses on creating an intuitive and visually appealing interface for a 
+                            fashion retail application.
+                        </p>
+                        <a href="https://www.behance.net/gallery/199002001/online-dress-shopping-app"><i class="fa-solid fa-share"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>vignesh1372002@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7092600289</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/vicky.reddy.3304673?mibextid=ZbWKwL"><i class="fa-brands fa-facebook" style=" color: aliceblue;"></i></a>
+                        <a href="https://x.com/VickyReddy137?t=Nc23h0UuSkWWzVOJCfEepQ&s=09"><i class="fa-brands fa-twitter" style=" color: aliceblue;"></i></a>
+                        <a href=""> <i class="fa-brands fa-instagram" style=" color: aliceblue;"></i></a>
+                        <a href="https://www.linkedin.com/in/vignesh-saravanan-530645253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin" style=" color: aliceblue;"></i></a>
+                    </div>
+                   <a href="VIGNESHRESUME1.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Vignesh S made with by My Portfolio</p>
+        </div>
+    </div>
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu= document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
